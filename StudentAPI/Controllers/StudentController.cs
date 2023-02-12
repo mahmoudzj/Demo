@@ -14,6 +14,7 @@ namespace StudentAPI.Controllers
         private readonly IStudentRep _studentRep;
         public StudentController(IStudentRep studentRep) { _studentRep = studentRep;  }
 
+
         [HttpGet]
         public IActionResult GetAll()
         {
